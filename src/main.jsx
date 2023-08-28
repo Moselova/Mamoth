@@ -6,6 +6,7 @@ import Navbar from "./Navbar.jsx";
 import Trusted from "./Trusted.jsx";
 import How from "./How.jsx";
 import Out from "./Out.jsx";
+import Footer from "./Footer.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
 	<React.StrictMode>
@@ -14,5 +15,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 		<Trusted />
 		<How />
 		<Out />
+		<Footer />
 	</React.StrictMode>
 );
