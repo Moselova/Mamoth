@@ -7,10 +7,10 @@ import hendrick from "./assets/hendrick.png";
 
 export default function Trusted () {
     return (
-		<div
-			className="h-[336px] bg-[#D9FFDA] text-center"
-		>
-			<h1 className="text-[14px] font-[700] pt-[40px]">Trusted By Top Companies</h1>
+		<div className="h-[336px] bg-[#D9FFDA] text-center">
+			<h1 className="text-[14px] font-[700] pt-[40px] text-[#005C30]">
+				Trusted By Top Companies
+			</h1>
 			<div className="flex justify-center gap-[200px] pt-[80px]">
 				<div className="flex align-middle gap-[70px]">
 					<img src={alumi} />

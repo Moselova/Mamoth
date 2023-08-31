@@ -15,7 +15,7 @@ export default function How() {
 						<h1 className="text-[32px] font-[600] text-[#626262]">
 							<span className="italic text-[#43A047]">
 								Efficient
-							</span>{" "}
+							</span>
 							Waste Collection
 						</h1>
 						<p>
