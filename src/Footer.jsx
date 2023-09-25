@@ -6,13 +6,13 @@ import link from "./assets/link.svg";
 
 export default function Footer () {
     return (
-		<div className="h-[418px] flex justify-around pt-[100px] bg-[#F1FFE5] mt-[100px]">
+		<div className="h-[418px] block sm:flex justify-around pt-[100px] bg-[#F1FFE5] mt-[100px]">
 			<div>
 				<h1 className="text-[36px] font-[700] text-[#2E845B]">
 					MAMOTH
 				</h1>
 			</div>
-			<div className="flex gap-[200px] text-[#005C30] font-[15px] font-[400]">
+			<div className="flex gap-[50px] sm:gap-[200px] text-[#005C30] font-[15px] font-[400]">
 				<div>
 					<h1 className="font-[700] font-[21px] mb-[12px]">Useful</h1>
 					<p>Blog</p>

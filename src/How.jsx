@@ -10,9 +10,9 @@ export default function How() {
 				</h1>
 			</div>
 			<div className="flex justify-around items-center">
-				<div className="flex flex-col gap-[40px] mt-[50px]">
-					<div>
-						<h1 className="text-[32px] font-[600] text-[#626262]">
+				<div className="flex flex-col gap-[20px] mt-[50px] justify-center px-12">
+					<div className="">
+						<h1 className="sm:text-[32px] text-[19px] sm:font-[600] font-[400] text-[#626262]">
 							<span className="italic text-[#43A047]">
 								Efficient
 							</span>
@@ -27,9 +27,9 @@ export default function How() {
 						</p>
 					</div>
 					<div>
-						<h1 className="text-[32px] font-[600] text-[#626262]">
+						<h1 className="sm:text-[32px] text-[19px] sm:font-[600] font-[400] text-[#626262]">
 							<span className="italic text-[#43A047]">
-								Advanced 
+								Advanced
 							</span>
 							Recycling
 						</h1>
@@ -42,10 +42,10 @@ export default function How() {
 						</p>
 					</div>
 					<div>
-						<h1 className="text-[32px] font-[600] text-[#626262]">
+						<h1 className="sm:text-[32px] text-[19px] sm:font-[600] font-[400] text-[#626262]">
 							<span className="italic text-[#43A047]">
 								Responsible
-							</span>{" "}
+							</span>
 							Disposal
 						</h1>
 						<p>
@@ -56,7 +56,7 @@ export default function How() {
 						</p>
 					</div>
 				</div>
-				<div>
+				<div className="hidden sm:flex">
 					<img src={dust} />
 				</div>
 			</div>

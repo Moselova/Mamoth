@@ -13,7 +13,7 @@ export default function Out() {
 					<span className="italic font-[500]">stories</span>
 				</h1>
 			</div>
-			<div className="flex justify-center mt-[30px]">
+			<div className="sm:flex-row flex flex-col justify-center sm:mt-[30px]">
 				<div>
 					<img src={pic1} />
 				</div>
