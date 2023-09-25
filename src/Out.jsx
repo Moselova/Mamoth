@@ -25,7 +25,7 @@ export default function Out() {
 				</div>
 			</div>
 			<div className="flex justify-around w-[100%]">
-				<div className="w-[1194px] h-[473px] bg-[url('./assets/back.png')] bg-no-repeat bg-cover flex justify-around pt-[70px]">
+				<div className="sm:w-[1194px] w-[377.27px] sm:h-[473px] h-[670px] bg-[url('./assets/back.png')] bg-no-repeat bg-cover flex flex-col sm:flex-row justify-around pt-[70px]">
 					<div className=" text-[#ffff]">
 						<h1 className="text-[49.24px] font-[700] leading-[55.76px]">
 							Waste disposal
