@@ -26,8 +26,8 @@ export default function Out() {
 			</div>
 			<div className="flex justify-around w-[100%]">
 				<div className="sm:w-[1194px] w-[377.27px] sm:h-[473px] h-[670px] bg-[url('./assets/back.png')] bg-no-repeat bg-cover flex flex-col sm:flex-row justify-around pt-[70px] rounded-[21.31px]">
-					<div className=" text-[#ffff]">
-						<h1 className="text-[49.24px] font-[700] leading-[55.76px]">
+					<div className=" text-[#ffff] pl-[40px] sm:pl-[0px]">
+						<h1 className="sm:text-[49.24px] text-[40px] font-[700] leading-[55.76px]">
 							Waste disposal
 							<br />
 							<span className="italic font-[400]">made easy</span>
@@ -39,8 +39,11 @@ export default function Out() {
 							contact us today
 						</button>
 					</div>
-					<div>
-						<img src={map} />
+					<div className="pl-[25px] pt-[50px] sm:pt-[0px]">
+						<img
+							src={map}
+							className="scale-[0.8] sm:scale-[1.0] "
+						/>
 					</div>
 				</div>
 			</div>

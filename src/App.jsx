@@ -3,16 +3,17 @@ import ringa from "./assets/ringa.png";
 
 function App() {
 	return (
-		<div className="pt-[100px] bg-[#F1FFE5]">
+		<div className="pt-[50px] sm:pt-[50px] bg-[#F1FFE5]">
 			<div className="text-center text-[32.89] sm:text-[61px] font-[700] leading-[38.82px] sm:leading-[92.5px]">
-				<h1 className="text-[#49CD88]">
+				<h1 className="text-[#49CD88] text-[32.89px] sm:text-[61.67px]">
 					Your{" "}
 					<span className="text-[#43A047] font-[400] italic">
 						Sustainable
 					</span>
 				</h1>
-				<h1 className="text-[#49CD88]">
-					Waste Management{" "}
+				<h1 className="text-[#49CD88] text-[32.89px] sm:text-[61.67px]">
+					Waste
+					<br /> Management{" "}
 					<span className="text-[#43A047] font-[400] italic">
 						Partner
 					</span>

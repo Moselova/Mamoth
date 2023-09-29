@@ -4,7 +4,7 @@ export default function Navbar() {
 	return (
 		<div className="xl:flex xl:justify-evenly bg-[#F1FFE5] xl:items-center xl:gap-[400px] xl:pt-[20px]">
 			<div>
-				<h1 className="text-[36px] font-[700] text-[#2E845B]">
+				<h1 className="text-[36px] font-[700] text-[#2E845B] pl-[40px] sm:pl-[0px] pt-[30px]">
 					MAMOTH
 				</h1>
 			</div>
